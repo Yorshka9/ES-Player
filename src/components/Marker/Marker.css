@@ -1,0 +1,10 @@
+.marker {
+  height: 13px;
+  width: 13px;
+  border-radius: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  cursor: pointer;
+}

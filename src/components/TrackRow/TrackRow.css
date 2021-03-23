@@ -1,0 +1,112 @@
+.titleArtist {
+  color: #fff;
+}
+
+.moods,
+.genres,
+.bpm,
+.time,
+.vocals,
+h2,
+h3 {
+  color: rgb(194, 194, 194);
+}
+
+.microphone {
+  width: 50px;
+  height: 20px;
+  filter: brightness(120%) contrast(0%);
+}
+
+.highlight {
+  background-color: var(--grey);
+}
+
+.hidden {
+  background-color: black;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid var(--grey);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 100%;
+}
+
+.track-row-wrapper:hover {
+  background-color: var(--grey);
+}
+
+.track-row-wrapper:hover .buttons * {
+  background: transparent;
+}
+
+.track-row-wrapper:hover .track-action:hover {
+  background-color: var(--light-grey);
+}
+
+.buttons,
+.highlighted-buttons {
+  display: flex;
+}
+
+.buttons * {
+  margin: 2px;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+}
+
+.highlighted-buttons * {
+  margin: 2px;
+
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.highlighted-buttons *:hover {
+  background-color: var(--light-grey);
+}
+
+.track-action {
+  border: 1px solid rgb(95, 95, 95);
+  border-radius: 70%;
+  border: hidden !important;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.play-pause-button {
+  background-color: var(--grey);
+  border: none;
+  height: 100px;
+  min-width: 100px;
+  padding: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.highlight-play-pause-button:hover {
+  background-color: var(--light-grey);
+}
+
+.is-playing {
+  background-color: #fff;
+}
